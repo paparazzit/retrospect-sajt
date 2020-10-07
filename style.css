@@ -49,9 +49,19 @@ body {
 	color: var(--green);
 	font-weight: 600;
 }
+.form-ctrl {
+	width: 100%;
+	margin: 0 auto;
+	padding: 8px 10px;
+	background: #29333c;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	color: white;
+}
 
 .container-2 {
-	width: 80%;
+	width: 60%;
 	margin: 0 auto;
 }
 
@@ -125,4 +135,9 @@ header hgroup i {
 	font-size: 1.4rem;
 	font-weight: 300;
 	line-height: 1.6;
+}
+
+/* footer */
+footer {
+	background: var(--backgroundDeepGray);
 }
