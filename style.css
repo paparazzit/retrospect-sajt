@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,700");
+:root {
+	--green: #51baa4;
+	--backgorundGray: #eeeeee;
+	--backgroundDeepGray: #1e2832;
+	--iGray: #a5a9ad;
+	--fontGray: #555555;
+	--darkGray: #25383b;
+	--fontSize: 16px;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-size: var(--fontSize);
+	font-family: "Raleway", sans-serif;
+	background: var(--backgorundGray);
+}
+.py-6 {
+	padding: 100px 0;
+}
+.px-6 {
+	padding: 0 80px;
+}
+.m-box {
+	margin: 100px 0;
+}
+.my-6 {
+	margin: 80px 0;
+}
+.btn-c {
+	border: none;
+	background: var(--green);
+	text-transform: uppercase;
+	padding: 15px 25px;
+	border-radius: 30px;
+	color: white;
+	font-weight: 600;
+}
+.btn-tra {
+	border: 2px solid var(--green);
+	background: white;
+	text-transform: uppercase;
+	padding: 15px 45px;
+	border-radius: 30px;
+	color: var(--green);
+	font-weight: 600;
+}
+
+.container-2 {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* Header */
+header {
+	background: url(img/banner.jpg);
+	background-position: top;
+	background-size: cover;
+	height: 65vh;
+}
+
+header ul li a {
+	color: white !important;
+	font-weight: 500;
+}
+header hgroup i {
+	border: 3px solid white;
+}
+
+/* SERVICES */
+
+.services article img {
+	padding-left: 0 !important;
+}
+.services article img:nth-child(2) {
+	padding-right: 0 !important;
+}
+.services .services article .featured-text {
+	color: var(--fontGray);
+}
+.services article .featured-text p {
+	line-height: 2;
+}
+/* NEWS */
+.news {
+	background: white;
+}
+
+.news hgroup h4 {
+	font-weight: 400;
+	font-size: 1.2rem;
+}
+.news .container hgroup h4 {
+	line-height: 1.5;
+	margin-bottom: 40px;
+}
+
+.news .row .col-md-3 {
+	padding: 0 !important;
+}
+
+/* CTA */
+.cta {
+	background: url(img/pic11.jpg);
+	background-position: bottom;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.cta hgroup .btn-tra {
+	background: rgba(255, 255, 255, 0);
+	border: 2px solid white;
+	color: white;
+}
+.cta hgroup h2 {
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.cta hgroup h4 {
+	font-size: 1.4rem;
+	font-weight: 300;
+	line-height: 1.6;
+}
